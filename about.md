@@ -8,13 +8,8 @@ This section of the website is still under construction. Please pardon the mess!
 
 ## Education
 
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
+* BS, Computer Science, Cornell University, anticipated May 2017
 
-## Roles
-
-Founder, ABC Organisation
 
 ## Skills
 
