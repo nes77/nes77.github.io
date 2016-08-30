@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This section of the website is still under construction. Please pardon the mess!
+I'm a student of software engineering and systems programming, focusing on design of both large, distributed software and software designed to run in constrained environments. 
+
+I also play the sax.
 
 ## Education
 
@@ -13,26 +15,25 @@ This section of the website is still under construction. Please pardon the mess!
 
 ## Skills
 
-* **Skill 1** - `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 2** - `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 3** - `Skill` / `Skill` / `Skill`
-* **Skill 4** - `Skill` / `Skill` / `Skill` 
-* **Skill 5** - `Skill`
-* **Skill 6** - `Skill` / `Skill` 
-    
+* **Primary Programming Languages** - `Java` / `Python` / `C/C++`
+* **Additional Programming Environments** - `Go` / `x86-64 Assembly` / `C#/F#/.NET`
+* **Data-Driven Programming** - `SQL` / `Familiar with design and use of DBMS`
+* **Design of Large Software** - `Compiler design and implementation` / `Concurrent & distributed software design` / `Testing infrastructure development`
+* **Constrained Environment Programming** - `Microcode and assembly programming` / `Memory-constrained environments` / `OS-less environments` / `Secure environments`  / `Android development`
+* **Miscellaneous** - `4 Years Linux Experience`
     
 ## Achievements
 
 
-* [**This is my first achievement**](#) 
+* [**Academic Achievements**](#) 
    
-   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+   Cornell Engineering Dean's List Spring 2014 and Spring 2016
 
 ***
 
-* [**This is my second achievement**](#) 
+* [**Impactful Optimization**](#) 
 
-    Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+    In my experience at Intel, I developed testing infrastructure for a server chip that gave a speedup factor between 32 and 1000, depending on use case. I acheived this by exploiting both concurrency available on the chip being tested (allowing for previously complex testing to be significantly simplified), as well as on the development system to parallelize a previously serial build system.
 
 ***
 
