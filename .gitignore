@@ -4,7 +4,10 @@ _site
 .jekyll-metadata
 .bundle
 .sass-cache
-Gemfile
 Gemfile.lock
 node_modules
 package.json
+.jekyll-cache/
+nes77.github.io.iml
+nes77.github.io.ipr
+nes77.github.io.iws

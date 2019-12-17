@@ -1,0 +1,49 @@
+- layout: top-middle
+  name: Airsim
+#  link: github.com/sproogen
+#  github: sproogen/resume-theme
+  quote: >
+    It's like aquariums for planes!
+  description: | # this will include new lines to allow paragraphs
+    A game/simulation project in <mark>Kotlin</mark>, <mark>Java</mark>, and <mark>JavaScript</mark> using
+    LibKTX (a Kotlin wrapper around LibGDX, the original Minecraft game engine).
+
+    After initially working purely with OpenJDK, I moved the project to run on [GraalVM](https://www.graalvm.org/), a specialized version of the JVM designed to run
+    applications written in multiple languages. This allowed me to add support for scripting in a variety of languages. JavaScript is the primarily supported language, due
+    to the relative maturity of the GraalJS project. However, this also allows for running languages compiled to LLVM IR, allowing the game
+    to be scripted and extended in many mainstream languages. This also allows for testing of new game features before they have an associated GUI.
+
+- layout: top-middle
+  name: Universal Data Guard for Intel Secure Guard Extensions
+  github: nes77/udg-sgx
+  description: |
+    I worked with Prof. Sirer at Cornell to enable authenticated manipulation of program state via the Ethereum blockchain.
+    Security was provided via Intel SGX, an ISA extension for <mark>x86-64</mark> which allows programs to execute in isolation from
+    the rest of the system, including other hardware and the OS.
+
+    This project required working in a RAM-constrained environment (comparatively). Ethereum clients typically use at least 2 GB of RAM,
+    but a secure enclave (the environment provided by SGX) only had between 32 and 64 MB of RAM available. This required careful utilization
+    of RAM and decisions on feature-tradeoffs to ensure that the program could verify the integrity of commands issued via the blockchain.
+
+    Additionally, all file and network I/O had to take place through very specific software interfaces, via a function trampoline
+    provided by the Intel SGX library into unsecure routines. This required careful consideration of what information
+    would need to be reverified within the enclaves to ensure a MITM attack would not be successful. DoS attacks were considered,
+    but deemed preferable to a loss of confidentiality or integrity.
+
+- layout: top-middle
+  name: Ethereum Vault & Notification Server
+  github: nes77/pyethvaultserv
+  description: |
+    This project was created as part of the [IC3](https://www.initc3.org/) July 2016 Ethereum Bootcamp. It's a Python
+    server designed to monitor the Ethereum blockchain for events relating to a "vault". The "vault" is a DAO (decentralized autonomous organization)
+    that allows users to deposit Ethereum. When a user wishes to withdraw from the vault, they are required to wait a certain amount of time
+    for funds to be released to their desired destination. This server monitored the blockchain for such events and notified users
+    who registered to watch activity relating to certain Ethereum addresses. A user would then be able to prevent unauthorized withdrawals
+    by challenging the withdrawal request from an appropriately privileged Ethereum address.
+
+- layout: top-middle
+  name: Salmon Says
+  github: nes77/salmonsays
+  description: |
+    It's [cowsay](https://en.wikipedia.org/wiki/Cowsay), but with a salmon, and it quotes Roosevelt by default.
+    Written in Python.

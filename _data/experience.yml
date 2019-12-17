@@ -1,0 +1,61 @@
+- layout: left
+  company: Intel Corporation
+  link: intel.com
+  job_title: System Validation Engineer
+  dates: Jun 2017 - Present
+  quote: >
+    If it is smart and connected, it is best with Intel.
+  description: | # this will include new lines to allow paragraphs
+    As a System Validation Engineer in the Datacenter Group at Intel, I continued work on the Intel network accelerator IP I worked on as an intern.
+    My responsibilities included designing, implementing, and debugging testing software and infrastructure, as well as designing validation plans to prove out the functionality of functional unit blocks (FUBs).
+
+    At this position, I've:
+      - Worked extensively with <mark>Python</mark>, <mark>C++11</mark>, and <mark>assembly</mark>
+      - Implemented a 300x speedup of test infrastructure by selectively lowering computation to <mark>Cython</mark>
+      - Led a "Brown Bag" presentation series to promote knowledge sharing across the team's organization
+      - Led best-practices workgroups to coordinate <mark>Git</mark> usage across projects
+      - Led Python 2 to 3 transition ahead of 2020 Python 2 EOL
+      - Implemented a 30% speedup in build time of a critical piece of test infrastructure
+      - Integrated and promoted the use of static and runtime analysis tools (i.e. <mark>Clang</mark> tooling) to catch subtle programming errors in a large codebase
+      - Designed and implemented a software test framework for testing multiple generations of hardware functionality
+      - Wrote a flow control analysis program in <mark>Rust</mark> to enable analysis of compiled assembly
+      - Acted as a product owner under the <mark>Agile</mark> sprint and scrum process
+
+- layout: left
+  company: Cornell University Department of Computer Science
+  link: cs.cornell.edu
+  job_title: Undergraduate Research Associate
+  dates: Feb 2016 - Sep 2016
+  description: |
+    I worked on a proof of concept piece of software using Intel SGX (**S**ecure **G**uard e**X**tensions) to provide
+    a confidential, verifiable environment to execute commands from the Ethereum blockchain. I worked under Prof. Emin Gun Sirer.
+
+    Key aspects of the project were:
+      - Working in a memory limited environment with no traditional I/O access
+      - Developing debugging techniques for an environment with limited visibility
+
+    See Projects below for more details and source code.
+
+- layout: left
+  company: Intel Corporation
+  link: intel.com
+  job_title: System Validation Engineer Undergraduate Intern
+  dates: Feb 2015 - Jan 2016
+  description: |
+    As an Intern doing System Validation in the Datacenter Group at Intel, I worked on a network accelerator IP.
+
+    At this position I:
+      - Owned a FUB, closed a significant knowledge gap in functional documentation, and created new tests, closing several coverage gaps
+      - Created an application to compile and run tests, providing at least 32x and as much as 100x speedup over existing test infrastructure, leveraging platform <mark>concurrency</mark> and allowing compilation to be offloaded to networked systems
+      - Contributed patch to internal <mark>Linux</mark> development driver, part of enabling virtualization support
+
+- layout: left
+  company: Speare, Inc.
+  job_title: Software Development Intern
+  dates: Jun 2014 - Sept 2014
+  description: |
+    At Speare I worked on a content recommendation system for recommending news articles.
+
+    My primary accomplishment was pushing for and implementing the transition of our database software from MongoDB
+    to PostgreSQL, as well as working with the CTO on redesigning table schemas to avoid unnecessary joins.
+    The resulting changes enabled a 1000x speedup.

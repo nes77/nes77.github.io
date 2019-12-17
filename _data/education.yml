@@ -1,0 +1,10 @@
+- layout: left
+  name: Cornell University School of Engineering
+  dates: 2012 - 2017
+  qualification: BS Computer Science, Music Minor
+  description: | # this will include new lines to allow paragraphs
+    My coursework included <mark>Machine Learning</mark>,
+    <mark>AI</mark>, <mark>Compiler Design</mark>, <mark>DBMS usage and implementation</mark>, <mark>Operating Systems</mark>, and <mark>Functional Programming</mark>.
+
+    In addition, I worked on the Violet Nano-satellite Project Team, where I debugged the communications subsystem by simulating
+    the onboard navigation chip using a microcontroller in order to find the cause of a failure in our testing software.

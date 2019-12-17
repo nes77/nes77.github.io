@@ -1,81 +1,63 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
 
-# Name of your site (displayed in the header)
-name: Nicholas Samson 
+# Personal info
+name: Nick Samson
+title: System Validation Engineer
+email: me@nicksamson.com
+website: www.nicksamson.com
 
-# Short bio or description (displayed in the header)
-description: Aspiring Systems Programmer
+# Social links
+#twitter_username: facespics
+github_username:  nes77
+# dribbble_username: jekyll
+# facebook_username: jekyl
+# flickr_username: jekyll
+#instagram_username: chillwildlife
+linkedin_username: nes77
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
 
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  I'm Nick and I work as a System Validation Engineer predominantly focusing on infrastructure and design of testing software
+  for the validation of network accelerator technology. I've got experience debugging every level of the stack from individual bits in hardware
+  to kernel drivers to web backends.
 
-#
-# Flags below are optional
-#
+  I'm a programming polyglot and love language design. I have significant experience with <mark>Java</mark> and the <mark>JVM</mark>,
+   <mark>C++</mark>, <mark>C</mark>, and <mark>Python</mark>, as well as experience using <mark>ANTLR</mark> to write DSLs for <mark>embedded application scripting</mark>.
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: me@nicksamson.com
-  facebook:
-  flickr:
-  github: nes77
-  instagram:
-  linkedin: nes77
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  I'm interested primarily in SETI and SWE roles at any level of the hardware and software stack.
 
+# Projects Section
+# projects_title: Projects
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: nes77
+# Experience Section
+experience_title: Work Experience
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-82876047-1
+# Education Section
+# educaton_title: Education
 
-# Your website URL (e.g. http://akshayagarwal007.github.io)
-# Used for Sitemap.xml and your RSS feed
-url: http://www.nicksamson.com
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  When I'm not at work or working on personal software projects, I'm usually [writing or playing music](https://soundcloud.com/cp1116-jazz).
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+  See my LinkedIn (linked at top of page) for information on classes taken.
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+# Footer
+footer_show_references: true
 
-permalink: /:title/
+# Build settings
+remote_theme: sproogen/resume-theme
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+#  sass_dir: _sass
+  style: compressed
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+plugins:
+ - jekyll-seo-tag
